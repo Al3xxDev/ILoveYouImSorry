@@ -11,7 +11,7 @@ export default function SpecialMemories() {
                         <div className="flex-1">
                             <div className="polaroid-wrapper transform rotate-[-3deg] hover:rotate-0 transition-transform duration-500">
                                 <img
-                                    src="/photos/firstKiss.jpg"
+                                    src={`${import.meta.env.BASE_URL}photos/firstKiss.jpg`}
                                     alt="First Kiss Memory"
                                     className="rounded-sm shadow-lg"
                                     style={{ maxWidth: '100%', height: 'auto' }}
@@ -44,7 +44,7 @@ export default function SpecialMemories() {
                         <div className="flex-1">
                             <div className="video-frame shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
                                 <video controls width="100%" className="rounded-lg">
-                                    <source src="/photos/burp.mp4" type="video/mp4" />
+                                    <source src={`${import.meta.env.BASE_URL}photos/burp.mp4`} type="video/mp4" />
                                     Il tuo browser non supporta il video.
                                 </video>
                             </div>
