@@ -33,7 +33,7 @@ export default function Gallery() {
                     <RevealOnScroll key={index} delay={index * 0.1}>
                         <div className="gallery-item">
                             <img
-                                src={`/photos/${photo.src}`}
+                                src={`${import.meta.env.BASE_URL}photos/${photo.src}`}
                                 alt={photo.caption}
                                 loading="lazy"
                             />

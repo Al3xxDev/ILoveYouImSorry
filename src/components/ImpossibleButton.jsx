@@ -105,7 +105,7 @@ export default function ImpossibleButton({ onSuccess }) {
                         >
                             <h2 style={{ fontSize: '2rem', marginBottom: '1.5rem', color: 'var(--color-primary)' }}>Sapevo che non potevi resistermi baaaby! 😏</h2>
                             <img
-                                src="/photos/funny.jpg"
+                                src={`${import.meta.env.BASE_URL}photos/funny.jpg`}
                                 alt="Funny victory"
                                 style={{
                                     width: '100%',

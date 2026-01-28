@@ -25,7 +25,7 @@ export default function Surprise() {
                                 <p className="text-gray-500 mt-2">Clicca per scoprire</p>
                             </div>
                             <div className="card-back">
-                                <img src="/photos/sushi.png" alt="Sushi Reservation" style={{ height: '250px', objectFit: 'cover' }} />
+                                <img src={`${import.meta.env.BASE_URL}photos/sushi.png`} alt="Sushi Reservation" style={{ height: '250px', objectFit: 'cover' }} />
                                 <div className="card-content">
                                     <h3>Sushi per Due! 🍣</h3>
                                     <p>Chi ha voglia di taaanto sushi?</p>
@@ -48,7 +48,7 @@ export default function Surprise() {
                                 <p className="text-gray-500 mt-2">Clicca per scoprire</p>
                             </div>
                             <div className="card-back">
-                                <img src="/photos/regalo.png" alt="Gift" style={{ height: '250px', objectFit: 'contain', width: '100%', padding: '10px' }} />
+                                <img src={`${import.meta.env.BASE_URL}photos/regalo.png`} alt="Gift" style={{ height: '250px', objectFit: 'contain', width: '100%', padding: '10px' }} />
                                 <div className="card-content flex flex-col items-center justify-center">
                                     <h3>Un Regalo Speciale 🎁</h3>
                                     <p>Cosa sarà mai questa mail?</p>
